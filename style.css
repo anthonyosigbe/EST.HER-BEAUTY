@@ -8,8 +8,8 @@ body
 }
 .banner-image 
 {
-  width: 128px;
-  height: 128x;
+  width: 200px;
+  height: 200px;
   border-radius: 128px;
   object-fit: cover;
 }
