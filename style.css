@@ -8,10 +8,10 @@ body
 }
 .banner-image 
 {
-  width: 110px;
-  height: 110x;
+  width: 128px;
+  height: 128x;
   border-radius: 128px;
-   object-fit: cover;
+  object-fit: cover;
 }
 .thumbnail 
 {
@@ -26,7 +26,7 @@ body
   display: flex;
   justify-content: center;
   font-family: 'Playfair Display', serif;
-  font-size: 48px;
+  font-size: 40px;
 }
 .social-icons a
 {
