@@ -10,6 +10,7 @@
     <title>Nicole O. Anthony</title>
   </head>
   <body>
+    <div class="background--custom">
   <div class="items">
     <div class="banner">
       <img src="images/Optimized-headshot3.jpg" alt="Nicole Anthony Headshot" class="banner-image">
@@ -29,26 +30,33 @@
       </a>
            
     </div>
-    <div class="link">
+    <div class="link glass">
       <img src="images/pre order.jpg" class="thumbnail">
-      <a target="_blank" href="https://estherprojectlife.com">Pre - Order The Esther Project Box</a>
+      <a class="link-text" target="_blank" href="https://estherprojectlife.com">Pre - Order The Esther Project Box</a>
     </div>
-    <div class="link">
+    <div class="link glass">
       <img src="images/this message is foryou.jpg" class="thumbnail">
-      <a target="_blank" href="">This message is for you!</a>
+      <a class="link-text" target="_blank" href="">This message is for you!</a>
     </div>
-    <div class="link">
+    <div class="link glass">
       <img src="images/connect with other women.jpg" class="thumbnail">
-      <a target="_blank" href="">Connect w/ other Wholesome, Virtuous Women</a>
+      <a class="link-text" target="_blank" href="">Connect w/ other Wholesome, Virtuous Women</a>
     </div>
-    <div class="link">
+    <div class="link glass">
       <img src="images/vision planer.jpg" class="thumbnail">
-      <a target="_blank" href="">Vision Planner</a>
+      <a class="link-text" target="_blank" href="">Vision Planner</a>
     </div>
-    <div class="link">
-      <img src="images/not as dirty.jpg" class="thumbnail">
-      <a target="_blank" href="">You're Not As Dirt As You Think</a>
-    </div>
+        <div class="link glass">
+          <img src="images/not as dirty.jpg" class="thumbnail">
+            <a class="link-text" target="_blank" href="">You're Not As Dirt As You Think</a>
+        </div>
+      </div>
+      <canvas id="canvas" />
   </div>
+  <script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+  <script>
+    var gradient = new Gradient();
+    gradient.initGradient("#canvas");
+  </script>
 </body>
 </html>
