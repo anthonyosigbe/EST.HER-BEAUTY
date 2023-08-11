@@ -8,7 +8,7 @@ body
 }
 .banner-image 
 {
-  width: 200px;
+  width: 220px;
   height: 200px;
   border-radius: 128px;
   object-fit: cover;
@@ -32,6 +32,8 @@ body
 {
   color: #fffffe;
   text-decoration: none;
+  width: 48px;
+  height: 48px;
 }
 
 .link
