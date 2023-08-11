@@ -91,7 +91,7 @@ canvas#canvas {
   --gradient-speed: 0.000006;
 }
 .glass {
-  background-color: rgba(165, 42, 42, 0.50);
+  background-color: rgba(165, 42, 42, 0.40);
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .glassy {
